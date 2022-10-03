@@ -1,0 +1,15 @@
+@tailwind base;
+h3{
+    @apply mb-3 text-lg font-bold text-gray-800;
+}
+@tailwind components;
+.gnb_list{
+    @apply relative inline-block h-10 p-1 text-lg font-bold text-center w-36 hover:bg-green-700 hover:text-white;
+}
+.gnb_slide_menu{
+    @apply  block w-full h-10 text-center leading-10 hover:text-black hover:bg-white
+}
+.notice_text{
+ @apply inline-block mr-16 leading-9 whitespace-nowrap w-60 text-ellipsis overflow-clip h-9;
+}
+@tailwind utilities;
